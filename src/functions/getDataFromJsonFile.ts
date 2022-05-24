@@ -1,13 +1,16 @@
-import fs from 'fs'
-import path from 'path'
-import dotenv from 'dotenv'
-dotenv.config()
-
+import fs from "fs";
+import path from "path";
+import dotenv from "dotenv";
+dotenv.config();
+interface GetDataFromJsonFileDTO {
+  filename: string;
+}
 export class GetDataFromJsonFile {
-  execute(filename: string): string | null {
-    const dataPath: string | undefined = process.env.JSONDATAPATH
-    if(!fs.existsSync(dataPath)
-    const dataRead = fs.readFileSync(path.join(process.env.JSONDATAPATH!, filename + '.json'))
-    return `null`
+  constructor() {}
+  execute({ filename }: GetDataFromJsonFileDTO): String | null {
+    const filePath = path.join(__dirname, "..", "data", filename + ".json");
+    //   if (!fs.existsSync(filePath)) throw new Error("Directory not found");
+    const dataRead = fs.readFileSync(filePath).toString();
+    return dataRead;
   }
 }
