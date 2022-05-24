@@ -1,56 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1653365949110" clover="3.2.0">
-  <project timestamp="1653365949110" name="All files">
-    <metrics statements="38" coveredstatements="38" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3" elements="45" coveredelements="44" complexity="0" loc="38" ncloc="38" packages="2" files="2" classes="2"/>
-    <package name="getDataFromJsonFile">
-      <metrics statements="22" coveredstatements="22" conditionals="3" coveredconditionals="2" methods="2" coveredmethods="2"/>
-      <file name="getDataFromJsonFile.ts" path="/home/jeans/projects/search-anydesk/src/functions/getDataFromJsonFile/getDataFromJsonFile.ts">
-        <metrics statements="22" coveredstatements="22" conditionals="3" coveredconditionals="2" methods="2" coveredmethods="2"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="10" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="18" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="parseJsonToObject">
-      <metrics statements="16" coveredstatements="16" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="parseJsonToObject.ts" path="/home/jeans/projects/search-anydesk/src/functions/parseJsonToObject/parseJsonToObject.ts">
-        <metrics statements="16" coveredstatements="16" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="11" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-      </file>
-    </package>
+<coverage generated="1653419591718" clover="3.2.0">
+  <project timestamp="1653419591718" name="All files">
+    <metrics statements="21" coveredstatements="21" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1" elements="23" coveredelements="23" complexity="0" loc="21" ncloc="21" packages="1" files="1" classes="1"/>
+    <file name="parseJsonToObject.ts" path="C:\Users\jeansimas\projects\search-anydesk\src\functions\parseJsonToObject\parseJsonToObject.ts">
+      <metrics statements="21" coveredstatements="21" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+    </file>
   </project>
 </coverage>

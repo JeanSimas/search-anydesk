@@ -1,5 +1,7 @@
+import fs from 'fs'
+import path from 'path'
 interface ParseJsonToObjectDTO {
-  rawData: string;
+  filename: string;
 }
 
 export interface AnydeskDataItem {
@@ -8,8 +10,11 @@ export interface AnydeskDataItem {
   anydesk: string;
 }
 export class ParseJsonToObject {
-  execute({ rawData }: ParseJsonToObjectDTO): Array<AnydeskDataItem> {
-    const parsedData = JSON.parse(rawData);
+  execute({ filename }: ParseJsonToObjectDTO): Array<AnydeskDataItem> {
+    const filePath = path.join(__dirname, '..', '..', 'data', filename + '.json')
+
+    const rawData = fs.readFileSync(filePath).toString()
+    const parsedData: AnydeskDataItem[] = JSON.parse(rawData);
     console.log(parsedData[0].user);
     return parsedData;
   }
